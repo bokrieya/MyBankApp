@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mybankproject.AccountsController">
+   <children>
+      <TableView fx:id="table_view" layoutX="5.0" layoutY="49.0" opacity="0.63" prefHeight="438.0" prefWidth="890.0" style="-fx-background-color: #BC8FBF;" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+         <columns>
+            <TableColumn prefWidth="112.80001974105835" text="username" />
+            <TableColumn prefWidth="124.79998016357422" text="Account Type" />
+            <TableColumn prefWidth="142.4000244140625" text="Numéro Account" />
+            <TableColumn prefWidth="114.39996337890625" text="Account Code" />
+            <TableColumn minWidth="8.800048828125" prefWidth="128.00006103515625" text="Account Currency" />
+            <TableColumn minWidth="0.0" prefWidth="93.60000610351562" text="Bank Name" />
+            <TableColumn prefWidth="174.39996337890625" text="Initial Account Balance" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+.head_container{
+    -fx-background-color: #3D1640;
+}
+
+.head_container Text{
+    -fx-font-size: 1.3em;
+    -fx-font-weight: bold;
+    -fx-fill:#FFFFFF;
+}
+
+.menu_container_Button1 {
+    -fx-background-color: #BC8FBF;
+    -fx-text-fill:#FFFFFF;
+
+    -fx-font-size: 1.2em;
+}
+.menu_container_Button2 {
+    -fx-background-color: #3D1640;
+    -fx-text-fill:#FFFFFF;
+    -fx-font-size: 1.2em;
+}

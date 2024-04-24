@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="600.0" minWidth="900.0" prefHeight="330.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mybankproject.TransactionsController">
+   <children>
+      <TableView fx:id="table_view" layoutX="33.0" layoutY="41.0" opacity="0.63" prefHeight="532.0" prefWidth="844.0" style="-fx-background-color: #BC8FBF;" AnchorPane.topAnchor="50.0">
+        <columns>
+          <TableColumn prefWidth="116.80001068115234" text="Date" />
+          <TableColumn prefWidth="129.60003662109375" text="Trasnfer From" />
+            <TableColumn prefWidth="125.5999755859375" text="Transfer To" />
+            <TableColumn minWidth="0.0" prefWidth="92.0" text="Amount" />
+            <TableColumn prefWidth="80.80001831054688" text="Status" />
+            <TableColumn prefWidth="133.60009765625" text="Transfer Type" />
+            <TableColumn prefWidth="161.5999755859375" text="Description" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
